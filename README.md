@@ -1,16 +1,9 @@
-# tp1_cauty
+# Guide pour lancer le TP sur Android Studio
 
-A new Flutter project.
+1 - Lancer Android Studio
 
-## Getting Started
+2 - Ouvrir le projet TP1_Flutter
 
-This project is a starting point for a Flutter application.
+3 - Sélectionner Edge (web) en device Flutter
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4 - Exécuter le fichier lib/main.dart
