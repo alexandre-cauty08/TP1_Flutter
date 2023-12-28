@@ -95,7 +95,7 @@ class SomeQuizzPageState extends State<QuizzPage>
               width: 300,
               height: 120,
               decoration: BoxDecoration(
-                color: Colors.grey,
+                color: Colors.blue,
                 borderRadius: BorderRadius.circular(15.0),
                 border: Border.all(color: Colors.white),
               ),
@@ -121,7 +121,7 @@ class SomeQuizzPageState extends State<QuizzPage>
                       height: 35.0,
                       child: ElevatedButton(
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all(Colors.grey),
+                          backgroundColor: MaterialStateProperty.all(Colors.blue),
                         ),
                         onPressed: (){
                           countClick++;
@@ -141,7 +141,7 @@ class SomeQuizzPageState extends State<QuizzPage>
                       height: 35.0,
                       child: ElevatedButton(
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all(Colors.grey),
+                          backgroundColor: MaterialStateProperty.all(Colors.blue),
                         ),
                         onPressed: (){
                           countClick++;
@@ -161,7 +161,7 @@ class SomeQuizzPageState extends State<QuizzPage>
                       height: 35.0,
                       child: ElevatedButton(
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all(Colors.grey),
+                          backgroundColor: MaterialStateProperty.all(Colors.blue),
                         ),
                         onPressed: (){
                           countClick++;

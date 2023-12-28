@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage>
       padding: const EdgeInsets.only(left: 0.0,top: 100,right: 0.0,bottom: 0.0),
       decoration: const BoxDecoration
         (
-        color: Colors.pinkAccent,
+        color: Colors.blue,
         borderRadius: BorderRadius.only
           (
           topLeft: Radius.circular(20.0),
@@ -77,13 +77,13 @@ class _HomePageState extends State<HomePage>
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         color: Colors.white,
-        border: Border.all(width: 1,color: Colors.pinkAccent),
+        border: Border.all(width: 1,color: Colors.blue),
         image: const DecorationImage(
             fit: BoxFit.fill,
             image: AssetImage("images/toji.jpg")),
         boxShadow: const [
           BoxShadow(
-            color: Colors.pinkAccent,
+            color: Colors.blue,
             blurRadius: 1.0,
             offset: Offset(0.0, 5.0),
           ),
@@ -94,7 +94,7 @@ class _HomePageState extends State<HomePage>
 
   AppBar _getAppBar() {
     return AppBar(
-      title: const Text('Quizz',
+      title: const Text('Home Page',
         style: TextStyle(color: Colors.white),),
       centerTitle: true,
       backgroundColor: Colors.blue,
